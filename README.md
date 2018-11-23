@@ -43,5 +43,5 @@ extract the need text data. Everything else, should work fine if the requirement
 
 To execute this code just run from a command line shell `PareArticle.py` script file.
 
-##Author
+## Author
 * Hrvoje Grgic 

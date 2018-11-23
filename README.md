@@ -1,10 +1,10 @@
-#Text Indexing Application
-##Abstract
+# Text Indexing Application
+## Abstract
 This application is created in order to index all the words in a given data set.
 For now the application is created to search through a predetermined text collection, but it can be easily modified to 
 be applicable to any input source. 
 
-##Architecture
+## Architecture
 The application is composed out of three main scripts.
 * _ParseArticle.py_ is composed out of several functions that execute main logical processing in this assigment.
     * `def parse_article()` is in charge of parsing text file into a list of strings that represent all of the text 
@@ -35,7 +35,7 @@ The application is composed out of three main scripts.
       * `traverse_list` is a function that that traverses the lists of all the linked elements,
       and formats a string that part of the requirement.
 
-##Execution
+## Execution
 In order to execute this code, it is necessary to provide it with data collection. Example data collection can be found
 in `resource/collection.txt` file. Currently, the application is written in a way that it pre-process the format of the 
 mentioned text collection. The code can be extended in a way that only the pre-processing regex needs to be changed in order to 

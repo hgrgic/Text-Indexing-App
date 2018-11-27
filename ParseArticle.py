@@ -66,7 +66,7 @@ def plot_distribution_histogram(list_occurances):
 
 
 
-parsed_articles = parse_article('collection.txt')
+parsed_articles = parse_article('resources/collection.txt')
 indexing_map = index_articles(parsed_articles)
 print_indexed_dict(indexing_map["dict"])
 plot_distribution_histogram(indexing_map['stat'])
